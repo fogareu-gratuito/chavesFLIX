@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: greenyellow;
+}
+
+.chavesf {
+    border: 8px solid yellow;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    background-color: green;
+    padding: 30px;
+}
+
+.chave2 {
+    background-color: chartreuse;
+    padding: 100px;
+    padding-bottom: 150px;
+    font-size: 150px;
+    margin: 100px;
+    text-align: left;
+}
+
+.hastag {
+    position: absolute;
+    text-align: left;
+    margin: 200px;
+    top: 300px;
+    font-size: 20px;
+}
+
+.hastag2 {
+    position: absolute;
+    text-align: left;
+    margin: 370px;
+    top: 130px;
+    font-size: 20px;
+}
+
+.video {
+    position: absolute;
+    right: 120px;
+    top: 250px;
+}
+
+.isso {
+    margin-left: 10px;
+    margin-top: -80px;
+    border: 10px solid yellow;
+    background-color: green;
+    padding: 10px;
+    padding-bottom: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+    width: 10px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -210px;
+}
+
+.zoom {
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
